@@ -10,11 +10,6 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 Vue.use(ElementUI)
 
-window.getConfig = {
-    URL       : "http://172.16.9.181:8080",
-    pic_url   : "https://",
-    video_url : "https://",
-},
 
 /**
  *
@@ -51,10 +46,11 @@ import './angulr/libs/jquery/bootstrap/dist/css/bootstrap.css'
 import './angulr/css/font.css'
 import './angulr/css/app.css'
 
-import './angulr/libs/jquery/jquery/dist/jquery.js'
 import './angulr/libs/jquery/bootstrap/dist/js/bootstrap.js'
 import './angulr/js/ui-nav.js'
-import './angulr/js/vue.js'
+// JQ加密插件
+import './angulr/js/crypto.js'
+
 
 new Vue({
   el: '#app',
